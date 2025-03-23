@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Sederhana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+    <h1 class="text-3xl font-bold mb-6">To-do List !</h1>
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md lg:max-w-lg">
+        <h2 class="text-xl mb-4 text-center">Tambahkan Kegiatan mu untuk besok.</h2>
+        <form id="todo-form" class="flex flex-col gap-2 mb-4">
+            <div class="flex">
+                <input type="text" id="task-input" placeholder="Tambahkan tugas" class="w-full p-2 border rounded-l">
+                <button type="submit" class="bg-green-500 text-white px-4 py-2 hover:bg-green-600">Tambahkan</button>
+            </div>
+            <p id="pesan-eror" class="text-red-500 text-sm hidden">Masukkan tugas terlebih dahulu!</p>
+            <button type="button" id="btn-save" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full">Simpan</button>
+            <p id="pesan-simpan" class="text-green-500 text-sm hidden">Tugas berhasil disimpan!</p>
+        </form>
+        <ul id="todo-list" class="space-y-2"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
