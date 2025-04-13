@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Dashboard Zefanya</title>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/style.css"/>
+       
+    </head> 
+
+    <body class="standard">
+        <header id="title">Tugas Perkuliahan Saya</header>
+        <section class="section">
+            <h2>Tambahkan Tugas</h2>
+            <form id="task-form">
+              <input
+                type="text"
+                id="task-input"
+                class="standard-input"
+                placeholder="Nama Tugas..."
+                required
+              />
+              <input
+                type="date"
+                id="task-date"
+                class="standard-input"
+                placeholder="Tenggat Hari"
+                required
+              />
+              <input
+                type="time"
+                id="task-time"
+                class="standard-input"
+                required
+              />
+              <button type="submit" class="standard-button">Tambah</button>
+            </form>
+          </section>
+
+        <section class="section">
+            <h2>Daftar</h2>
+            <ul id="task-list">
+            <!-- List item akan muncul di sini -->
+            </ul>
+        </section>
+        <script type="module" src="./js/main.js"></script>
+    </body>
+</html>
