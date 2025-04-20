@@ -19,3 +19,7 @@ Aplikasi ini memungkinkan pengguna untuk:
 - **Pencarian Judul Buku:** Fitur untuk mencari buku berdasarkan kata kunci pada judul.
 
 ### Screenshot Aplikasi:
+<img width="1470" alt="Screenshot 2025-04-21 at 00 44 41" src="https://github.com/user-attachments/assets/d506f1f3-78b6-4981-b99f-dbe46e2c8701" />
+<img width="1470" alt="Screenshot 2025-04-21 at 00 46 20" src="https://github.com/user-attachments/assets/cb23896b-1e9d-4e75-84c3-d77f5bac1b7b" />
+<img width="1470" alt="Screenshot 2025-04-21 at 00 46 36" src="https://github.com/user-attachments/assets/30a6a639-1961-42c0-8bd8-cd70b9e798dc" />
+<img width="1470" alt="Screenshot 2025-04-21 at 00 51 54" src="https://github.com/user-attachments/assets/855861e7-c09b-4716-84ba-2d8cee33dc14" />
